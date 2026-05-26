@@ -1,6 +1,6 @@
-name: kubectl-readonly
+name: kubectl
 description: |
-  Kubernetes CLI access.
+  Read-only Kubernetes CLI access.
 enabled: true
 policy: |
   allowed := {"get", "describe", "logs", "top", "version", "cluster-info"}
